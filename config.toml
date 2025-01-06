@@ -3,5 +3,19 @@ theme = "mocha_custom"
 [keys.insert]
 C-c = "normal_mode"
 
-[editor.file-picker]
-hidden = false
+# [editor.file-picker]
+# hidden = false
+
+[editor]
+line-number = "relative"
+
+[editor.cursor-shape]
+insert = "block"
+normal = "block"
+select = "block"
+
+[keys.normal]
+y = "yank_main_selection_to_clipboard"
+p = "paste_clipboard_after"
+P = "paste_clipboard_before"
+
